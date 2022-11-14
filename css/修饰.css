@@ -1,0 +1,338 @@
+body 
+{
+    background-image: url("../images/背景.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.abc{text-decoration: none;}
+
+.p 
+{
+    width: 1240px;
+    position: absolute;
+    left: 140px;
+    top: 440px;
+}
+
+.p2
+{
+    width: 800px;
+    position: absolute;
+    left: 140px;
+    top: 440px;
+}
+
+.img 
+{
+    float:left;
+    margin:0px 0px 15px 20px;
+}
+
+.div11
+{
+    position: absolute;
+    left: 160px;
+    top: 390px;
+}
+
+.div12
+{
+    position: absolute;
+    left: 160px;
+}
+
+
+.div21
+{
+    position: absolute;
+    left: 160px;
+}
+
+.img21
+{
+    position: absolute;
+    left: 160px;
+    top: 800px;
+}
+
+.p3 {
+    width: 1240px;
+    height: 800px;
+    position: absolute;
+    left: 140px;
+    top: 440px;
+}
+.img3 {
+       float:left;
+       margin:0px 0px 15px 20px;
+}
+
+.p32 {
+    width: 1240px;
+    height: 800px;
+    position: absolute;
+    left: 140px;
+    top: 900px;
+}
+.img32 {
+       float:left;
+       margin:0px 0px 15px 20px;
+}
+
+.p33 {
+    width: 1240px;
+    height: 800px;
+    position: absolute;
+    left: 140px;
+    top: 1360px;
+}
+.img33 {
+       float:left;
+       margin:0px 0px 15px 20px;
+}
+
+.p34 {
+    width: 1240px;
+    height: 800px;
+    position: absolute;
+    left: 140px;
+    top: 1820px;
+}
+.img34 {
+       float:left;
+       margin:0px 0px 15px 20px;
+}
+
+.p35 {
+    width: 1240px;
+    height: 800px;
+    position: absolute;
+    left: 140px;
+    top: 2280px;
+}
+.img35 {
+       float:left;
+       margin:0px 0px 15px 20px;
+}
+
+.p36 {
+    width: 1240px;
+    height: 800px;
+    position: absolute;
+    left: 140px;
+    top: 2740px;
+}
+.img36 {
+       float:left;
+       margin:0px 0px 15px 20px;
+}
+
+.a31
+{
+    position: absolute;
+    left: 160px;
+    top: 3220px;
+    text-decoration: none;
+}
+
+.p37 {
+    width: 1240px;
+    height: 800px;
+    position: absolute;
+    left: 140px;
+    top: 3250px;
+}
+
+.p4
+{
+    position: absolute;
+    left: 160px;
+}
+
+.img5
+{
+    width: 220px;
+    height: 150px;
+    position: absolute;
+    left: 200px;
+}
+
+.img51
+{
+    width: 220px;
+    height: 150px;
+    position: absolute;
+    left: 425px;
+}
+
+.img52
+{
+    width: 220px;
+    height: 150px;
+    position: absolute;
+    left: 650px;
+}
+
+.img53
+{
+    width: 220px;
+    height: 150px;
+    position: absolute;
+    left: 875px;
+}
+
+.img54
+{
+    width: 220px;
+    height: 150px;
+    position: absolute;
+    left: 1100px;
+}
+
+.img051
+{
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    left: 200px;
+}
+
+.img052
+{
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    left: 355px;
+}
+
+.img053
+{
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    left: 510px;
+}
+
+.img054
+{
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    left: 665px;
+}
+
+.img055
+{
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    left: 820px;
+}
+
+.img056
+{
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    left: 975px;
+}
+
+.img057
+{
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    left: 1130px;
+}
+
+.div5
+{
+    position: absolute;
+    left: 200px;
+}
+
+.p6
+{
+    width: 800px;
+    position: absolute;
+    left: 140px;
+    top: 550px;
+}
+
+.p61
+{
+    position: absolute;
+    left: 950px;
+    top: 490px;
+}
+
+.p62
+{
+    width: 800px;
+    position: absolute;
+    left: 140px;
+    top: 1000px;
+}
+
+.p63
+{
+    position: absolute;
+    left: 950px;
+    top: 950px;
+}
+
+.p7
+{
+    width: 1200px;
+    position: absolute;
+    left: 170px;
+    top: 450px;
+}
+
+.div81
+{
+    position: absolute;
+    left: 220px;
+}
+
+.div82
+{
+    position: absolute;
+    left: 320px;
+    top: 860px;
+}
+
+/* .div83
+{
+    position: absolute;
+    left: 1000px;
+    top: 760px;
+} */
+
+.img81
+{
+    text-decoration: none;
+    color: white;
+    
+    position: absolute;
+    right:200px; 
+    top: 850px;
+}
+a:hover{
+    color: cornflowerblue;
+}
+
+.img82
+{
+    position: absolute;
+    left: 860px;
+    top: 820px;
+}
+
+.table1
+{
+    position: absolute;
+    top: 450px;
+}
+

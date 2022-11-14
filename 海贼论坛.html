@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海贼王</title>
+    <link rel="stylesheet" href="./css/修饰.css">
+    <script type = "text/javascript">
+        function beforeSubmit(form)
+        {
+            var text = document.getElementById('pinglun').value;
+            if(text.length==0){
+                alert('点评为空，无法提交！');
+                form.pl.focus();
+            }else{
+                alert('提交成功');
+            }
+        }
+        
+        document.cookie = "1;expires=Sun, 25 Dec 2022 12:00:00 UTC";
+
+        function lt()
+        {
+            
+        }
+    </script>
+</head>
+<body>
+    <p style="text-align: center;">
+        <img src="./images/顶部长图.jpg" width="80%" height="300px"  border="1">
+    </p>
+    <table style="color: white;" width = "80%" height = "50%" border = "1" cellspacing = "0"  align = "center" >
+        <tr>
+		    <th bgcolor="DarkRed">
+                <a href="./index.html" style="color: white;" class="abc">网站首页</a>
+            </th>
+            <th bgcolor="DarkRed">
+                <a href="./TV版目录.html" style="color: white;" class="abc">TV版目录</a>
+            </th>
+            <th bgcolor="DarkRed">
+                <a href="./角色资料.html" style="color: white;" class="abc">角色资料</a>
+            </th>
+            <th bgcolor="DarkRed">
+                <a href="./精选壁纸.html" style="color: white;" class="abc">精选壁纸</a>
+            </th>
+			<th bgcolor="DarkRed">
+                <a href="./衍生作品.html" style="color: white;" class="abc">衍生作品</a>
+            </th>
+            <th bgcolor="DarkRed">
+                <a href="./果实大全.html" style="color: white;" class="abc">果实大全</a>
+            </th>
+			<th bgcolor="DarkRed">
+                <a href="./海贼论坛.html" style="color: white;" class="abc">海贼论坛</a>
+            </th>
+            <th bgcolor="DarkRed">
+                <a href="./关于我.html" style="color: white;" class="abc">关于我</a>
+            </th>
+         </tr>
+   </table>
+   <br></br><br>
+
+   <div class="div12"><font color="white" size="5">作品评价</font></div>
+   <br></br>
+   <p class="p7" style="font-size:18px; color:white; width:75%;" >
+    &nbsp;&nbsp;&nbsp;&nbsp;从来没有一部动画作品能像海贼王这样打动我，一部看似搞笑却能让人时时落泪的作品，
+    一个一心只想成为第一剑客的剑士Zoro, 一个爱钱如命的航海师Nami, 一个满嘴大话的狙击手Usoppu,
+     一个好色的厨子Sanji, 还有半人半鹿的船医Chopper，考古学家Nico Robin, 几近疯狂的一个团队跟着一个
+     头脑简单到近乎白痴的主角Monkey D Luffy在一望无际的伟大航线上冒险航行, 人性的脆弱，贪婪，恐惧等
+     等在一路上表现得淋漓尽致，但是只要你拥有一个梦想而且从不放弃的话，那你的人生才会有意义，即便是失
+     去生命也毫不犹豫的笑着接受。
+    </p>
+    <br></br><br></br><br></br><br></br>
+    <div class="div12"><font color="white" size="5">留言点评</font></div>
+    <br></br><br></br>
+    <form method="post" name="form" onSubmit="return beforeSubmit(this);">
+    <div class="div12"><font size="4" color="white">点评 : </font></div>
+    <textarea cols="100" rows="7" style="overflow: hidden;" class="div81" maxlength="500" name="pl" id="pinglun">(限500字)</textarea>
+    <br></br><br></br><br></br><br>
+    <!-- <div class="div83"><font color="white" size="4">(限500字)</font></div> -->
+    <input type = "submit" value = "提交" class="img82" id="pl"></input>
+    </form>
+    <!-- <a href="./注册.html" target="_blank">
+        <img src="./images/乌索普.jpg" class="img81" width="5%" id="lt" onclick="lt()"></img>
+    </a>
+    <div class="div82"><font color="white" size="4">---------------------点击图片进入论坛</font></div> -->
+    <a href="./注册.html" target="_blank" class="img81" id="lt">进入论坛</a>
+    <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br> 
+</body>
+</html>
